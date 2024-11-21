@@ -11,8 +11,8 @@ Collect this information and transfer it for each environment:
     1. Environment Repository (all private to hide uploader's identity) (DEV, UAT, PROD)
     2. Repository URL
     3. Invite WHO Bot User to Repository (with read rights). The Bot User is:
-        - [tng-bot](https://github.com/tng-bot) for production (PROD)
-        -  [tng-bot-dev](https://github.com/tng-bot-dev) for development (DEV) and user acceptance testing (UAT) environments.
+        - **tng-bot** for production (PROD)
+        -**tng-bot-dev** for development (DEV) and user acceptance testing (UAT) environments.
     4. Create GPG Keys for responsible persons for each environment (see below)
 3. Fill in content for your country:
    - for DEV and UAT environments you may use the conf files and the [certgen bash script](scripts/certgen/gen_all_certs.sh) as a guideline according to the [Certificate Preparation](scripts/certgen/README.md)
